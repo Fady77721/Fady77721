@@ -29,7 +29,7 @@ from telegram.ext import (
 TOKEN = "7678401477:AAHxX4dX_mEpUFxEwEskZyO8sySKME2AGuc"
 DEVELOPER_ID = 6404249449  # استبدل برقمك الخاص
 ADMIN_IDS = [DEVELOPER_ID, 6404249449]  # أرقام المشرفين الإضافيين
-REQUIRED_CHANNEL = "https://t.me/+BRMK5gd9QcJmZWE0"  # قناة الاشتراك الإجباري
+REQUIRED_CHANNEL = "https://t.me/CC_chk7rb"  # قناة الاشتراك الإجباري
 SUPPORT_LINK = "https://t.me/hrbino"
 SUPPORT_NAME = "𝑫𝑰𝑽 𝟳ًٍَ𝗥ّ!𝗕"
 WEBSITE_LINK = "https://example.com"
