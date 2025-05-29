@@ -6,6 +6,9 @@ import http
 import re
 import random
 import asyncio
+import os
+from dotenv import load_dotenv
+load_dotenv()
 from datetime import datetime, timedelta
 from typing import Dict, List, Optional, Tuple
 
