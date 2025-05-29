@@ -29,9 +29,9 @@ from telegram.ext import (
     )
 
 # --- إعدادات البوت الأساسية ---
-TOKEN = "7678401477:AAHxX4dX_mEpUFxEwEskZyO8sySKME2AGuc"
-DEVELOPER_ID = 6404249449  # استبدل برقمك الخاص
-ADMIN_IDS = [DEVELOPER_ID, 6404249449]  # أرقام المشرفين الإضافيين
+TOKEN = os.getenv("TOKEN")
+DEVELOPER_ID = int(os.getenv("DEVELOPER_ID"))
+ADMIN_IDS = [int(id) for id in os.getenv("ADMIN_IDS").split(",")]
 REQUIRED_CHANNEL = "https://t.me/CC_chk7rb"  # قناة الاشتراك الإجباري
 SUPPORT_LINK = "https://t.me/hrbino"
 SUPPORT_NAME = "𝑫𝑰𝑽 𝟳ًٍَ𝗥ّ!𝗕"
